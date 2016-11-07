@@ -17,8 +17,6 @@ void *MonteCarlo(){
 		float x = PointGenerator();
 		float y = PointGenerator();
 
-		//printf("(%.2f, %.2f)", x, y);
-
 		if((x * x) + (y * y) < 1){
 				in_circle+=1;
 		}
@@ -40,6 +38,5 @@ int main(){
 
 		pi = 4 * in_circle / THREAD_NUM;
 
-		printf("The number of point which is in circle: %.0f\n", in_circle);
 		printf("The value of PI is : %.5f\n", pi);
 }
