@@ -4,9 +4,9 @@
 #include<math.h>
 #define THREAD_NUM 8192
 
-/* Compile: gcc -fopenmp -O MonteCarlo_OpenMP.c -o MonteCarlo */
+/* Compile: gcc -fopenmp -O MonteCarlo.c -o MonteCarlo */
 
-/* Last modified at 2016/11/8 00:10 by Tommy */
+/* Last modified at 2016/11/8 00:15 by Tommy */
 
 float in_circle = 0;
 
